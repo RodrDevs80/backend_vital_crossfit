@@ -65,7 +65,7 @@ const getCategoriaById = async (req, res) => {
     res.status(200).json({
       status: 200,
       message: 'Categoría obtenido exitosamente',
-      data: itemCarrito
+      data: categoria
     });
 
   } catch (err) {
